@@ -15,6 +15,7 @@
 		1C230CFE2A93FB9200D15A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C230CFC2A93FB9200D15A4A /* LaunchScreen.storyboard */; };
 		1C230D092A93FB9200D15A4A /* Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C230D082A93FB9200D15A4A /* Table_ViewTests.swift */; };
 		1C230D142A93FB9200D15A4A /* Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C230D132A93FB9200D15A4A /* Table_ViewUITests.swift */; };
+		1C230D252A94000700D15A4A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C230D242A94000700D15A4A /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1C230D0F2A93FB9200D15A4A /* Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C230D132A93FB9200D15A4A /* Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_ViewUITests.swift; sourceTree = "<group>"; };
 		1C230D152A93FB9200D15A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C230D242A94000700D15A4A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1C230CFA2A93FB9200D15A4A /* Assets.xcassets */,
 				1C230CFC2A93FB9200D15A4A /* LaunchScreen.storyboard */,
 				1C230CFF2A93FB9200D15A4A /* Info.plist */,
+				1C230D242A94000700D15A4A /* CustomTableViewCell.swift */,
 			);
 			path = "Table View";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				1C230CF62A93FB8200D15A4A /* ViewController.swift in Sources */,
 				1C230CF22A93FB8200D15A4A /* AppDelegate.swift in Sources */,
+				1C230D252A94000700D15A4A /* CustomTableViewCell.swift in Sources */,
 				1C230CF42A93FB8200D15A4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
