@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C230CEE2A93FB8200D15A4A /* Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C230CEE2A93FB8200D15A4A /* Transfers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transfers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C230CF12A93FB8200D15A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C230CF32A93FB8200D15A4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1C230CF52A93FB8200D15A4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +44,10 @@
 		1C230CFA2A93FB9200D15A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C230CFD2A93FB9200D15A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C230CFF2A93FB9200D15A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C230D042A93FB9200D15A4A /* Table ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C230D042A93FB9200D15A4A /* TransfersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransfersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C230D082A93FB9200D15A4A /* Table_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_ViewTests.swift; sourceTree = "<group>"; };
 		1C230D0A2A93FB9200D15A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C230D0F2A93FB9200D15A4A /* Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C230D0F2A93FB9200D15A4A /* TransfersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransfersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C230D132A93FB9200D15A4A /* Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_ViewUITests.swift; sourceTree = "<group>"; };
 		1C230D152A93FB9200D15A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C230D242A94000700D15A4A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		1C230CEF2A93FB8200D15A4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C230CEE2A93FB8200D15A4A /* Table View.app */,
-				1C230D042A93FB9200D15A4A /* Table ViewTests.xctest */,
-				1C230D0F2A93FB9200D15A4A /* Table ViewUITests.xctest */,
+				1C230CEE2A93FB8200D15A4A /* Transfers.app */,
+				1C230D042A93FB9200D15A4A /* TransfersTests.xctest */,
+				1C230D0F2A93FB9200D15A4A /* TransfersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C230CED2A93FB8200D15A4A /* Table View */ = {
+		1C230CED2A93FB8200D15A4A /* Transfers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C230D182A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Table View" */;
+			buildConfigurationList = 1C230D182A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Transfers" */;
 			buildPhases = (
 				1C230CEA2A93FB8200D15A4A /* Sources */,
 				1C230CEB2A93FB8200D15A4A /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Table View";
+			name = Transfers;
 			productName = "Table View";
-			productReference = 1C230CEE2A93FB8200D15A4A /* Table View.app */;
+			productReference = 1C230CEE2A93FB8200D15A4A /* Transfers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1C230D032A93FB9200D15A4A /* Table ViewTests */ = {
+		1C230D032A93FB9200D15A4A /* TransfersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C230D1B2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Table ViewTests" */;
+			buildConfigurationList = 1C230D1B2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "TransfersTests" */;
 			buildPhases = (
 				1C230D002A93FB9200D15A4A /* Sources */,
 				1C230D012A93FB9200D15A4A /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				1C230D062A93FB9200D15A4A /* PBXTargetDependency */,
 			);
-			name = "Table ViewTests";
+			name = TransfersTests;
 			productName = "Table ViewTests";
-			productReference = 1C230D042A93FB9200D15A4A /* Table ViewTests.xctest */;
+			productReference = 1C230D042A93FB9200D15A4A /* TransfersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1C230D0E2A93FB9200D15A4A /* Table ViewUITests */ = {
+		1C230D0E2A93FB9200D15A4A /* TransfersUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C230D1E2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Table ViewUITests" */;
+			buildConfigurationList = 1C230D1E2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "TransfersUITests" */;
 			buildPhases = (
 				1C230D0B2A93FB9200D15A4A /* Sources */,
 				1C230D0C2A93FB9200D15A4A /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				1C230D112A93FB9200D15A4A /* PBXTargetDependency */,
 			);
-			name = "Table ViewUITests";
+			name = TransfersUITests;
 			productName = "Table ViewUITests";
-			productReference = 1C230D0F2A93FB9200D15A4A /* Table ViewUITests.xctest */;
+			productReference = 1C230D0F2A93FB9200D15A4A /* TransfersUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1C230CE92A93FB8200D15A4A /* Build configuration list for PBXProject "Table View" */;
+			buildConfigurationList = 1C230CE92A93FB8200D15A4A /* Build configuration list for PBXProject "Transfers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C230CED2A93FB8200D15A4A /* Table View */,
-				1C230D032A93FB9200D15A4A /* Table ViewTests */,
-				1C230D0E2A93FB9200D15A4A /* Table ViewUITests */,
+				1C230CED2A93FB8200D15A4A /* Transfers */,
+				1C230D032A93FB9200D15A4A /* TransfersTests */,
+				1C230D0E2A93FB9200D15A4A /* TransfersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		1C230D062A93FB9200D15A4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C230CED2A93FB8200D15A4A /* Table View */;
+			target = 1C230CED2A93FB8200D15A4A /* Transfers */;
 			targetProxy = 1C230D052A93FB9200D15A4A /* PBXContainerItemProxy */;
 		};
 		1C230D112A93FB9200D15A4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C230CED2A93FB8200D15A4A /* Table View */;
+			target = 1C230CED2A93FB8200D15A4A /* Transfers */;
 			targetProxy = 1C230D102A93FB9200D15A4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -491,7 +491,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table View.app/Table View";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transfers.app/Transfers";
 			};
 			name = Debug;
 		};
@@ -513,7 +513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table View.app/Table View";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transfers.app/Transfers";
 			};
 			name = Release;
 		};
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C230CE92A93FB8200D15A4A /* Build configuration list for PBXProject "Table View" */ = {
+		1C230CE92A93FB8200D15A4A /* Build configuration list for PBXProject "Transfers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C230D162A93FB9200D15A4A /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C230D182A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Table View" */ = {
+		1C230D182A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Transfers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C230D192A93FB9200D15A4A /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C230D1B2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Table ViewTests" */ = {
+		1C230D1B2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "TransfersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C230D1C2A93FB9200D15A4A /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C230D1E2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "Table ViewUITests" */ = {
+		1C230D1E2A93FB9200D15A4A /* Build configuration list for PBXNativeTarget "TransfersUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C230D1F2A93FB9200D15A4A /* Debug */,
