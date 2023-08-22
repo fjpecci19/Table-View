@@ -24,6 +24,12 @@ class ViewController: UIViewController {
         transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
         transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000"),
         transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
+        transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000"),
+        transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
+        transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000"),
+        transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
+        transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000"),
+        transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
         transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000")
     ]
     
