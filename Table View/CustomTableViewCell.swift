@@ -9,5 +9,7 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var icon: UIImageView!
+    @IBOutlet weak var date: UILabel!
+    @IBOutlet weak var transaction: UILabel!
     @IBOutlet weak var money: UILabel!
 }

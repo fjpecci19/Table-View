@@ -12,17 +12,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var table: UITableView!
     
     struct transfers {
+        let icon: String
+        let date: String
         let transaction: String
         let money: String
     }
     
     let data: [transfers] = [
-        transfers(transaction: "verde", money: "25000"),
-        transfers(transaction: "rojo", money: "-22000"),
-        transfers(transaction: "verde", money: "25000"),
-        transfers(transaction: "rojo", money: "-22000"),
-        transfers(transaction: "verde", money: "25000"),
-        transfers(transaction: "rojo", money: "-22000")
+        transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
+        transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000"),
+        transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
+        transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000"),
+        transfers(icon: "mas", date: "18-ago-2023 - 123456", transaction: "Transferencia internet banking", money: "Gs. 25000"),
+        transfers(icon: "menos", date: "18-ago-2023 - 456789", transaction: "Transferencia enviada SPI", money: "Gs. -22000")
     ]
     
     override func viewDidLoad() {
@@ -34,7 +36,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 140
+        return 150
     }
 }
 
@@ -46,7 +48,9 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let transfer = data[indexPath.row]
         let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
-        cell.icon.image = UIImage(named: transfer.transaction)
+        cell.icon.image = UIImage(named: transfer.icon)
+        cell.date.text = transfer.date
+        cell.transaction.text = transfer.transaction
         cell.money.text = transfer.money
         return cell
     }
